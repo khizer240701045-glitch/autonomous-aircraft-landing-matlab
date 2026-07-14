@@ -31,7 +31,22 @@ This project simulates an autonomous aircraft landing system using:
 - runway.jpg
 
 ## Screenshots
-(Add your images here)
+
+### Runway Detection
+![Runway Detection](your_image_link_here)
+
+### Glide Slope Guidance
+![Glide Slope](your_image_link_here)
+
+### 3D Landing Animation
+![Landing Animation](your_image_link_here)
+
+### AI Landing Decision
+![Decision](your_image_link_here)
+
+### Flight Report
+![Report](your_image_link_here)
+
 
 ## Future Improvements
 - Add crosswind simulation
