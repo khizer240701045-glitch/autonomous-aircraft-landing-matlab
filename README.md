@@ -1,19 +1,39 @@
-# Autonomous Aircraft Landing Guidance System (MATLAB)
+# Autonomous Aircraft Landing System (MATLAB)
 
-This project simulates an autonomous landing approach using MATLAB. It includes:
+## Overview
+This project simulates an autonomous aircraft landing system using:
+- Runway detection (computer vision)
+- Glide slope guidance (ILS model)
+- 3D landing animation
+- AI landing decision logic
+- Flight report generation
 
-- Runway detection using image processing
-- Glide slope and localizer guidance
-- 3D landing path animation
-- Error correction during descent
+## Features
+- Detects runway edges using Canny + Hough Transform
+- Computes glide slope error using a 3-degree descent model
+- Animates aircraft landing in 3D
+- Determines SAFE TO LAND or GO-AROUND
+- Generates a professional landing report
 
-## Files
+## How to Run
+1. Run `runway_detection.m`
+2. Run `landing_guidance.m`
+3. Run `landing_animation.m`
+4. Run `landing_decision.m`
+5. Run `landing_report.m`
+
+## Project Structure
 - runway_detection.m
 - landing_guidance.m
 - landing_animation.m
+- landing_decision.m
+- landing_report.m
+- runway.jpg
 
-## How to Run
-Run each script in order:
-1. runway_detection.m
-2. landing_guidance.m
-3. landing_animation.m
+## Screenshots
+(Add your images here)
+
+## Future Improvements
+- Add crosswind simulation
+- Add aircraft 3D model
+- Add real runway dataset
